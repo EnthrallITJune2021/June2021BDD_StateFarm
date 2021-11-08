@@ -1,0 +1,284 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is in landing page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the landing page",
+            "match": {
+              "location": "stepDefs.CommonSteps.user_is_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-08T03:58:21.380Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5265000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.BasePage.setUpDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validating multiple products",
+        "description": "",
+        "id": "validating-common-scenarios;validating-multiple-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 737000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.BasePage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select \u0027Auto\u0027 from products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Auto\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_select_from_product(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \u002711418\u0027 in zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711418\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_enter_in_zipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click \u0027start a quote\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027start a quote\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefs.CommonSteps.click_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will be in a page title \u0027Step 1 of 9\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Step 1 of 9\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_will_be_in_a_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@commonFeature"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is in landing page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the landing page",
+            "match": {
+              "location": "stepDefs.CommonSteps.user_is_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-08T03:58:27.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4011000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.BasePage.setUpDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validating multiple products",
+        "description": "",
+        "id": "validating-common-scenarios;validating-multiple-products;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.BasePage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select \u0027Homeowners\u0027 from products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Homeowners\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_select_from_product(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \u002711417\u0027 in zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002711417\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_enter_in_zipcode(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click \u0027start a quote\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027start a quote\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefs.CommonSteps.click_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will be in a page title \u0027Step 1 of 9\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Step 1 of 9\u0027",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefs.CommonSteps.user_will_be_in_a_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@commonFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Common scenarios",
+    "description": "",
+    "id": "validating-common-scenarios",
+    "keyword": "Feature",
+    "uri": "file:features/CommonFeature.feature",
+    "tags": [
+      {
+        "name": "@commonFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

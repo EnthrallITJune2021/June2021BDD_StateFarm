@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 					glue = "stepDefs",
 					dryRun = false,
 					monochrome = true,
-					publish = false)
+					tags = "@commonFeature",
+					plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "junit:target/cucumber.xml"})
 
 public class TestRunner {
 
