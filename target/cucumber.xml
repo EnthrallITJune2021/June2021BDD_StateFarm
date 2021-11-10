@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.969">
-<testcase classname="Validating Common scenarios" name="Validating multiple products" time="6.569">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="46.22">
+<testcase classname="Validating Common scenarios" name="Validating Find Account functionality" time="13.018">
 <system-out><![CDATA[Given user is in the landing page...........................................passed
-Given user select 'Auto' from products......................................passed
-And user enter '11418' in zipcode...........................................passed
-And user click 'start a quote' button.......................................passed
-Then user will be in a page title 'Step 1 of 9'.............................passed
+Given user validate landing page steps......................................passed
+When user select existing user flow.........................................passed
+Then user validate Login Page 1.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validating Common scenarios" name="Validating multiple products 2" time="5.165">
+<testcase classname="Validating Common scenarios" name="Validating Find Account functionality 2" time="11.131">
 <system-out><![CDATA[Given user is in the landing page...........................................passed
-Given user select 'Homeowners' from products................................passed
-And user enter '11417' in zipcode...........................................passed
-And user click 'start a quote' button.......................................passed
-Then user will be in a page title 'Step 1 of 9'.............................passed
+Given user validate landing page steps......................................passed
+When user select existing user flow.........................................passed
+Then user validate Login Page 2.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Common scenarios" name="Validating Find Account functionality 3" time="10.748">
+<system-out><![CDATA[Given user is in the landing page...........................................passed
+Given user validate landing page steps......................................passed
+When user select existing user flow.........................................passed
+Then user validate Login Page 3.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Common scenarios" name="Validating Find Account functionality 4" time="11.146">
+<system-out><![CDATA[Given user is in the landing page...........................................passed
+Given user validate landing page steps......................................passed
+When user select existing user flow.........................................passed
+Then user validate Login Page 4.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

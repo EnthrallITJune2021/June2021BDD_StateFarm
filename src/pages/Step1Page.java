@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.logging.Level;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import common.CommonMethods;
 import data.Details;
 import stepDefs.BasePage;
+import utils.LogClass;
 
 public class Step1Page {
 
@@ -15,6 +18,8 @@ public class Step1Page {
 		PageFactory.initElements(driver, this);
 	}
 	
+	@FindBy(xpath = "//div[@id='welcomeTitle']/descendant::h1")
+	public WebElement homeHeader;
 	@FindBy(id = "eyebrow")
 	public WebElement stepTitle;
 	@FindBy(id = "btnExisting")
@@ -74,7 +79,12 @@ public class Step1Page {
 		return BasePage.driver.findElement(By.xpath("//li[contains(.,'"+ expectedSuffix +"')]"));
 	}
 	
-	public String getTitle(CommonMethods commonMethods) {
-		return commonMethods.getTitle();
+	public String getTitle() {
+		return stepTitle.getText();
+	}
+	
+	public String getHomeHeader() {
+		LogClass.logger.log(Level.INFO, homeHeader.getText());
+		return homeHeader.getText();
 	}
 }
